@@ -1,0 +1,5 @@
+# Obsidian 內部設定資料夾
+.obsidian/
+
+# 作業系統產生的無用檔案
+.DS_Store
