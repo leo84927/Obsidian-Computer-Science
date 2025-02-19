@@ -13,4 +13,4 @@
 如果有寫過 C 應該就知道 C 的 standard library (stdlib.h) 有個叫做 malloc 的 method，字面意思上就可以看得出來它是用來分配記憶體的。
 那如果在使用了 malloc，程式執行完了，沒做啥其他的事情，就會 leak。那就是寫 C 時要有的習慣，寫完記得要 free()。
 但問題是，人非聖賢，事無萬全。配置完記憶體用完後忘記釋放這種事情屢見不鮮...，那麼是不是有這麼一套規則，可以 malloc 完，卻不用 free 便可以自行釋放記憶體的呢？
-那就是 <font color="#FF0000"><strong><u>Garbage Collection (GC)</u></strong></font>。
+那就是 [[Garbage Collection (GC)]]。
